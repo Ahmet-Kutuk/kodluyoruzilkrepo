@@ -1,0 +1,9 @@
+a {
+    padding:20px;
+}
+li {
+    color:blueviolet;
+    font-size: 1.4em;
+    list-style-type:none;
+    list-style-position: inside;
+}
