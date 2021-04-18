@@ -1,0 +1,16 @@
+.text-orange {
+    color:#f78501;
+    font-size:45px;
+}
+html, body
+{
+    background-color:#343a40;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.text-b {
+    color:#f78501;
+    font-size:45px;
+    font-weight:bold;
+}
