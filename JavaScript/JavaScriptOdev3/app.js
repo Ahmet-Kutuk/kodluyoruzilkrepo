@@ -90,25 +90,25 @@ const getItem = (list) => {
   for(let i = 0; i<list.length;i++)
 {
   let itemDIV = document.createElement("div");
-  itemDIV.classList.add("section-center","col-6","mt-4","re");
+  itemDIV.classList.add("section-center","col-md-6","mt-4","re");
   itemDIV.innerHTML=`<div class="row">
-  <div class="col-4">
+  <div class="col-md-4">
     <img class="img-fluid" style="width:80%; height:175px; border:5px solid black; border-radius:10px;" src="${menu[i].img}" alt="resim">
   </div>
-  <div class="col-8">
+  <div class="col-md-8">
     <div class="row">
-      <div class="col-6">
+      <div class="col-md-6">
       <h4 class="text-start">${list[i].title}</h4>
       </div>
-      <div class="col-6">
+      <div class="col-md-6">
       <h4 class="text-end">${list[i].price}</h4>
       </div>
-      <div class="col-12">
+      <div class="col-md-12">
         <hr>
       </div>
     </div>
     <div class="row">
-    <div class="col-12">
+    <div class="col-md-12">
     <span class="text-start">
       ${list[i].desc}
     </span>
