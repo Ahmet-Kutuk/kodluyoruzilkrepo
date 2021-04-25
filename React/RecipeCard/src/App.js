@@ -1,6 +1,7 @@
 import "./App.css";
 import Card from "./components/Card/Card";
-import food from "./assets/food.jpg"; // Tell webpack this JS file uses this image
+import food from "./assets/food.jpg";
+ // Tell webpack this JS file uses this image
 
 function App() {
   const recipeAuthor = "Kodluyoruz";
@@ -12,9 +13,6 @@ function App() {
       "Bu kremsi ve baharatlı avokado sosu, günlük taco'larınızı hazırlamak için harika seçeneklerden biri. Geleneksel olarak flautas veya taquitos ile servis edilir, ancak bazı vegan enchiladalara da harika bir katkı sağlar.",
   };
 
-  const likeCount = 193;
-  const isLiked = true;
-
   return (
     <div className="App">
       <header className="App-header">
@@ -22,10 +20,9 @@ function App() {
           title={recipeItem.title}
           date={recipeItem.date}
           description={recipeItem.description}
-          likeCount={likeCount}
-          isLiked={isLiked}
           author={recipeAuthor}
           image={recipeItem.image}
+          
         />
       </header>
     </div>

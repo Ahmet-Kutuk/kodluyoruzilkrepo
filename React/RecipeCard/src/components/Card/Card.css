@@ -78,3 +78,7 @@
 	font-size: small;
 	margin-left: 10px;
 }
+.like-button{
+	border:none;
+	background-color:transparent;
+}
